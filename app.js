@@ -9,8 +9,8 @@ const limiter = rateLimit({windowMs: 15 * 60 * 1000, max: 25});
 const mysql = require('mysql');
 const con = mysql.createConnection({
   host: "localhost",
-  user: "jamesw",
-  password: "J-wilson123",
+  user: "username",
+  password: "password",
   database: "moreusers"
 });
 
